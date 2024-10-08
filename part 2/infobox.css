@@ -1,0 +1,40 @@
+.info-box {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.8rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-box__item {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+.info-box__item-high i {
+  font-size: 25px;
+  /* background-color: red; */
+}
+.info-box__item h3 {
+  /* background-color: blue; */
+  align-self: center;
+}
+.info-box__item > div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
+@media only screen and (max-width: 450px) {
+  .info-box__item-high i {
+    font-size: 1rem;
+  }
+  .info-box__item h3 {
+    font-size: 3vw;
+  }
+}

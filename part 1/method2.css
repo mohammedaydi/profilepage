@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  padding: 2rem 2rem;
+}
+td {
+  padding: 1rem 1rem;
+}
+table {
+  padding: 0rem 4rem;
+}
